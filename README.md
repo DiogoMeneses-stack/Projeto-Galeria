@@ -17,7 +17,7 @@ Webpack para Eficiência de Desenvolvimento: O Webpack é a espinha dorsal do pr
   <a href="https://www.linkedin.com/in/diogo-meneses-a2a171194/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href = "mailto:mensesdiogo113@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
-<h2>Recusos Utilizados</h2>
+<h2>Recursos Utilizados</h2>
 <div style="{display:inline-block}">
   <img align="center" alt="Meneses-HTML" height="30" width="80" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img align="center" alt="Meneses-CSS" height="30" width="80" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
