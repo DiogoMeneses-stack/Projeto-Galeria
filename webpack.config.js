@@ -1,7 +1,8 @@
+const path = require('path');
 const modoDev = process.env.NODE_ENV !== 'production'
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
@@ -9,16 +10,14 @@ module.exports = {
     mode: modoDev ? 'development' : 'production',
     entry: './src/index.js',
     devServer: {
-        contentBase: './build',
-        port: 9000,
+        static: {
+            directory: path.join(__dirname, '/build'),
+        },
+        port: 90
     },
     optimization: {
         minimizer: [
-            new UglifyJsPlugin({
-                cache: true,
-                parallel: true,
-                sourceMap: true
-            }),
+            new new TerserPlugin({}),
             new OptimizeCSSAssetsPlugin({})
         ]
     },
