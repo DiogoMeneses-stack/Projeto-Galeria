@@ -24,7 +24,6 @@
     "popper.js": "1.14.3",
     "postcss-loader": "2.1.5",
     "sass-loader": "7.0.1",
-    "terser-webpack-plugin": "^5.3.10",
     "style-loader": "0.21.0",
     "uglifyjs-webpack-plugin": "1.2.5",
     "webpack": "4.8.3",
