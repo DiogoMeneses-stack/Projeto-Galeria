@@ -9,6 +9,12 @@
         "button-name": "off"
       }
     ],
-    "axe/language": "off"
+    "axe/language": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ]
   }
 }

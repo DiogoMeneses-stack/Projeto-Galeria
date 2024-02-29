@@ -1,4 +1,4 @@
-import $ from 'jquery'
+import $ from 'jquery';
 
 function loadIncludes(parent){
     if(!parent) parent = 'body'
